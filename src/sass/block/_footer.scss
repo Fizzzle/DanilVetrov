@@ -1,0 +1,20 @@
+footer{
+    min-height: 50px;
+    background-color: rgb(224, 224, 224);    
+}
+
+.footer{
+    &__wrapper{
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;        
+    }
+    &__copy{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        p{
+            margin: 0;
+        }
+    }
+}
